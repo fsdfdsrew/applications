@@ -1,0 +1,58 @@
+button {
+    background-color: $light-green-color;
+    color: $primary-color;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: $green-color;
+    }
+}
+
+header h1 {
+    margin: 0;
+    padding: 24px 32px;
+    text-align: start;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: $gray-6;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 5px;
+}
+
+.error-container {
+    display: flex;
+    margin: 0 20px;
+    width: -webkit-fill-available;
+    background-color: rgb(255 0 0 / 50%);
+    border-radius: 15px;
+
+    label {
+        padding: 5px 10px;
+        color: $primary-color;
+        font-size: small;
+    }
+}
+
+.button-error-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+
+    grid-row: 3;
+    padding-bottom: 20px;
+}
